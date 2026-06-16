@@ -1,5 +1,5 @@
-import {SpinLoader} from 'components/SpinLoader'
+import { SpinLoader } from '@/components/spinLoader';
 
 export default async function HomePage() {
-  return <SpinLoader />
+  return <SpinLoader fullScreen />
 }

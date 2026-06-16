@@ -1,8 +1,9 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme inline {
---color-blog: #ff0000;
-
+:root {
+	--color-blog: #ff0000;
 }
 
 
